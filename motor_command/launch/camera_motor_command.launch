@@ -1,0 +1,6 @@
+<launch>
+<!-- Start camera_motor_command -->
+<node pkg="motor_command" type="camera_motor_command" name="camera_motor_command" output="screen">
+<param name="gostop" type="int" value="0"/>
+</node>
+</launch>
